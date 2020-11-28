@@ -33,16 +33,19 @@
             res = {...res, url: window.location.href};
 
             if (checkValidity(form)) {
-                await fetch('https://3d5d451e2291.ngrok.io', {
+                await fetch('https://12822bf10805.ngrok.io', {
                     method: 'POST',
                     body: JSON.stringify(res),
                   })
                   .then(() => {
                     popup_out();
                     $('.popup_overlay').fadeIn(150);
-                    $('.popup_thx').fadeIn(150);
+                    $('.popup__thx').fadeIn(150);
+                    document.querySelector('.popup__thx').style = 'display: flex;'
                   })
-                  .catch((err) => console.log(err));
+                  .catch((err) => {
+                      alert('Ошибка соединения')
+                  });
             }
         });
     });
