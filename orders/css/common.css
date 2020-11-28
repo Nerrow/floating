@@ -1,0 +1,220 @@
+html,body {
+	height: 100%;
+}
+
+body.login-page {
+	background-color: #f7f9fb;
+	font-size: 14px;
+}
+
+.login-page .brand {
+	width: 120px;
+	overflow: hidden;
+	margin: 0 auto;
+	margin: 40px auto;
+}
+
+.login-page .brand img {
+	width: 100%;
+}
+
+.login-page .card-wrapper {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.login-page .card {
+	border-color: transparent;
+	box-shadow: 0 0 40px rgba(0,0,0,.05);
+}
+
+.login-page .card.fat {
+	padding: 10px;
+}
+
+.login-page .card .card-title {
+	margin-bottom: 30px;
+}
+
+.login-page .form-control {
+	border-width: 2.3px;
+}
+
+.login-page .form-group label {
+	width: 100%;
+}
+
+.login-page .btn.btn-block {
+	padding: 12px 10px;
+}
+
+.login-page .margin-top20 {
+	margin-top: 20px;
+}
+
+.login-page .no-margin {
+	margin: 0;
+}
+
+.login-page .footer {
+	margin: 40px 0;
+	color: #888;
+	text-align: center;
+}
+
+.login-page legend {
+	font-size: 20px;
+}
+
+:root {
+  --jumbotron-padding-y: 2rem;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.jumbotron .container {
+  max-width: 60rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+@media screen and (max-width: 425px) {
+	.login-page .card-wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.login-page .card.fat {
+		padding: 0;
+	}
+
+	.login-page .card.fat .card-body {
+		padding: 15px;
+	}
+}
+.navbar-brand::before {
+    content: '\25bc';
+	margin-right: 3px;
+}
+.user-panel {
+	color: #fff;
+}
+.user-panel .btn {
+	margin-left: 5px;
+}
+.alert {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#gbox_list {
+	margin: 0 auto;
+}
+.ui-jqgrid {
+	font-size: 13px;
+}
+.ui-jqgrid .ui-jqgrid-htable th {
+	font-size: 13px;
+	font-weight: bold;
+	height: 30px;
+	line-height: 1.2;
+}
+.ui-jqgrid tr.jqgrow td, .ui-jqgrid tr.jqgroup td {
+	font-size: 13px;
+	height: 30px;
+	padding: 1px 7px 1px 7px;
+}
+.ui-jqgrid .ui-pg-input, .ui-jqgrid .ui-jqgrid-toppager .ui-pg-input {
+	font-size: 13px;
+	height: 20px;
+	padding: 0 3px 0 3px;
+}
+.ui-jqgrid .ui-pg-selbox, .ui-jqgrid .ui-jqgrid-toppager .ui-pg-selbox {
+	font-size: 13px;
+	height: 20px;
+	padding: 0;
+}
+.ui-jqgrid .ui-jqgrid-pager {
+	min-height: 32px;
+}
+.ui-jqgrid .ui-jqgrid-toppager .ui-pager-control, .ui-jqgrid .ui-jqgrid-pager .ui-pager-control {
+	height: 32px;
+}
+.ui-jqgrid .ui-jqgrid-bdiv {
+	overflow: hidden;
+}
+.ui-jqgrid .ui-icon-desc {
+	margin-left: 0;
+}
+#list_action, .row-edit, .row-save, .row-restore, .row-delete {
+	font-size: 14px;
+}
+.ui-jqdialog .ui-jqdialog-titlebar {
+	height: 30px;
+}
+.fm-button {
+	height: 28px;
+	padding: .3em .7em .3em 1.7em;
+}
+.ui-jqdialog .ui-jqdialog-title {
+	margin: 0 0 0 5px;
+}
+#DelTbl_list {
+	padding: 1.2em .2em 0 .2em;
+	text-align: center;
+}
+#next_pager .ui-icon, #last_pager .ui-icon, #first_pager .ui-icon, #prev_pager .ui-icon {
+	margin-left: 3px;
+	margin-right: 3px;
+}
+.ui-jqdialog {
+	left: 50% !important;
+	margin-left: -120px !important;
+}
+.ui-jqgrid textarea.inline-edit-cell {
+	margin-top: 5px;
+}
+td[aria-describedby="list_params"], 
+td[aria-describedby="list_upsell"], 
+td[aria-describedby="list_address"], 
+td[aria-describedby="list_comment"] {
+	cursor: pointer;
+}
+#closedialog {
+	padding: .3em .7em .3em .7em;
+}
+#infocnt {
+	text-align: left !important;
+	white-space: nowrap;
+}
