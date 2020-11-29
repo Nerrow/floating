@@ -33,15 +33,12 @@
             res = {...res, url: window.location.href};
 
             if (checkValidity(form)) {
-                await fetch('http://5.63.159.57/api', {
+                await fetch('http://podruge8.ru/api', {
                     method: 'POST',
                     body: JSON.stringify(res),
                   })
                   .then(() => {
-                    popup_out();
-                    $('.popup_overlay').fadeIn(150);
-                    $('.popup__thx').fadeIn(150);
-                    document.querySelector('.popup__thx').style = 'display: flex;'
+                    document.location.href = '/thanks.html';
                   })
                   .catch((err) => {
                       alert('Ошибка соединения')
