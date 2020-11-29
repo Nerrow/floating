@@ -33,7 +33,7 @@
             res = {...res, url: window.location.href};
 
             if (checkValidity(form)) {
-                await fetch('https://12822bf10805.ngrok.io', {
+                await fetch('http://5.63.159.57/api', {
                     method: 'POST',
                     body: JSON.stringify(res),
                   })
